@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CDB8D26C-5B35-FC6B-8065-AEC87F0EA7F0" containerWithKeyObject="4031BB05-9DB2-D159-42F6-0A7338C1BE3A" localFKIndex="F1FE5B80-812B-80E2-0DFE-B80FDAE453B1" name="주문번호_도서번호_FK">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 07:54:07 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<referredTableLongName>도서번호</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9D4110FD-4B85-C136-3C4B-06DAA372746C</referredTableID>
+<keyObject>588B0475-C687-C76F-3BFF-BE2D6328978D</keyObject>
+<referredKeyID>588B0475-C687-C76F-3BFF-BE2D6328978D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>도서번호</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

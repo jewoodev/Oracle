@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="2419E16C-371A-20E0-8580-BEEBACDB8F74">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:17:46 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

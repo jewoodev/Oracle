@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="도서번호" directorySegmentName="seg_0" id="9D4110FD-4B85-C136-3C4B-06DAA372746C">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:34:25 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="도서이름" id="12F980BE-F1BA-F011-7D0F-6322085206F0">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:37:27 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="출판사이름(FK)" id="53241CFD-56E3-4546-D6C6-A7525896D548">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:37:27 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="도서번호" id="7BAE38D5-DA7C-4F99-734A-72CBB804053B">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:49:31 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="도서단가" id="9D0B6396-9003-572B-93D1-F93746574E4F">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:37:27 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="도서번호_출판사이름_FK" id="8487C343-29EC-AD63-1C73-978667366DE3">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 07:48:15 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="도서번호_PK" id="588B0475-C687-C76F-3BFF-BE2D6328978D">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:49:31 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

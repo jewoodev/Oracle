@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5AD0F31-36C0-9F61-9456-F6693D7F36FE" name="출판사이름">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:39:11 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="담당자이름" id="A3E9578B-1DC2-EBF4-F36B-3DAFADF13B77">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:39:23 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="전화번호" id="BFAEA307-A34B-714E-22C2-CCDC394AF459">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:39:23 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="출판사이름" id="174B33FE-4405-7F09-5F34-535FE422F98F">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 07:42:37 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="838D04BA-0F8F-E78D-1440-C048E8A473F2" name="출판사이름_PK">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 07:33:10 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="174B33FE-4405-7F09-5F34-535FE422F98F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

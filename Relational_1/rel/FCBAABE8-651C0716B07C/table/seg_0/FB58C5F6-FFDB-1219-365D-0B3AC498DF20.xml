@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB58C5F6-FFDB-1219-365D-0B3AC498DF20" name="고객번호">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:38:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="고객이름" id="1FEE2E82-5CC3-D1D3-9186-410FF472EAEA">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:39:03 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="주소" id="F8C6C516-3513-5903-C292-1DECF1BB09E7">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:39:03 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="전화번호" id="25BC9299-71A5-9834-F152-03517B551600">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:39:03 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="고객번호" id="E8582358-988E-F6B5-0CE4-2DABF5D3A727">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 07:39:56 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="52A02800-D030-EF8E-0026-83A29F049E91" name="고객번호_PK">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 07:38:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8582358-988E-F6B5-0CE4-2DABF5D3A727"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

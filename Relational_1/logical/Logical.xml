@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="6194DAE5-4CA7-9ABE-D19F-56A136FEC057" mainViewID="3588409B-9056-C14D-9EB2-845649A622CE">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:17:46 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

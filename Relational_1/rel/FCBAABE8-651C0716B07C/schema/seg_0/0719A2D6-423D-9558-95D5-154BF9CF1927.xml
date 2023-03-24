@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="MADANG" directorySegmentName="seg_0" id="0719A2D6-423D-9558-95D5-154BF9CF1927">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:23:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</SchemaObject>

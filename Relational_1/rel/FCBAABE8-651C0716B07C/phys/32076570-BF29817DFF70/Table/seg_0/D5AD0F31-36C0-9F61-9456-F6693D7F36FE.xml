@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="출판사이름" directorySegmentName="seg_0" id="D5AD0F31-36C0-9F61-9456-F6693D7F36FE">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:39:11 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="출판사이름" id="174B33FE-4405-7F09-5F34-535FE422F98F">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 07:42:37 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="담당자이름" id="A3E9578B-1DC2-EBF4-F36B-3DAFADF13B77">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:39:23 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="전화번호" id="BFAEA307-A34B-714E-22C2-CCDC394AF459">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:39:23 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="출판사이름_PK" id="838D04BA-0F8F-E78D-1440-C048E8A473F2">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 07:33:10 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

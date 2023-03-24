@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4031BB05-9DB2-D159-42F6-0A7338C1BE3A" name="주문번호">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:37:38 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="고객번호(FK)" id="3C5480AD-38FE-31E2-DEBB-3670824FDA03">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:38:10 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C10616D5-A28E-F9DF-8B9B-3B9692A04B4E" referredColumn="E8582358-988E-F6B5-0CE4-2DABF5D3A727"/>
+</associations>
+</Column>
+<Column name="도서번호(FK)" id="DC81DD5C-99A4-9805-9FBB-50DF72E1C65B">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:38:10 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDB8D26C-5B35-FC6B-8065-AEC87F0EA7F0" referredColumn="7BAE38D5-DA7C-4F99-734A-72CBB804053B"/>
+</associations>
+</Column>
+<Column name="주문일자" id="135D221F-6BAF-0ADB-AD4D-B9E05016F0F4">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:38:10 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="주문금액" id="2D6573FC-95C0-D528-33C9-62A4CF2C01FA">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:38:10 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="주문번호" id="BA55D551-CFCB-54A1-C362-F0EC0B3F8E0F">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 07:41:51 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D0D6C43-7BA6-33A1-E9C6-8F538CEA8619" name="주문번호_PK">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:50:37 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA55D551-CFCB-54A1-C362-F0EC0B3F8E0F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C192CCE0-7907-2EC6-D371-B0B8999FE815" name="주문번호_고객번호_FK">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 07:54:07 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C5480AD-38FE-31E2-DEBB-3670824FDA03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1FE5B80-812B-80E2-0DFE-B80FDAE453B1" name="주문번호_도서번호_FK">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 07:54:07 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC81DD5C-99A4-9805-9FBB-50DF72E1C65B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

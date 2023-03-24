@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="고객번호" directorySegmentName="seg_0" id="FB58C5F6-FFDB-1219-365D-0B3AC498DF20">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:38:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="고객이름" id="1FEE2E82-5CC3-D1D3-9186-410FF472EAEA">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:39:03 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="전화번호" id="25BC9299-71A5-9834-F152-03517B551600">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:39:03 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="고객번호" id="E8582358-988E-F6B5-0CE4-2DABF5D3A727">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 07:39:56 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="주소" id="F8C6C516-3513-5903-C292-1DECF1BB09E7">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 06:39:03 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="고객번호_PK" id="52A02800-D030-EF8E-0026-83A29F049E91">
+<createdBy>PlayData</createdBy>
+<createdTime>2023-03-24 07:38:47 UTC</createdTime>
+<ownerDesignName>Relational_1</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
